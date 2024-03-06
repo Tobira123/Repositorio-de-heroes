@@ -1,0 +1,13 @@
+/* styles.css en la carpeta components */
+
+.nav-item {
+    font-size: 1.3rem; /* Ajusta esto al tamaño de fuente deseado */
+    /* Otros estilos que quieras aplicar a tus nav items */
+  }
+  
+  /* Si quieres tener estilos únicos para cada nav item, podrías usar ids o clases adicionales */
+  #nav-marvel, #nav-dc, #nav-search {
+    margin-bottom: 5px; /* Añade un margen abajo */
+  }
+  
+  

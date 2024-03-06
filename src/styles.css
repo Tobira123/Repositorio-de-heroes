@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+
+/* Estilo para cada tarjeta */
+.card {
+  flex: 0 0 auto; /* Evita que las tarjetas se estiren o se encojan */
+  width: 150px; /* Ancho fijo para todas las tarjetas */
+  height: 300px; /* Altura fija para todas las tarjetas */
+  margin: 10px; /* Espacio entre tarjetas */
+  overflow: hidden; /* Oculta cualquier contenido que desborde */
+  padding: 10px; /* Reduce el padding para ganar más espacio para el texto */
+  /* Añade estilos adicionales según sea necesario */
+}
+
+/* Estilo para el título y el texto dentro de las tarjetas */
+.card-title, .card-text {
+  font-size: 0.9em; /* O cualquier otro tamaño que se ajuste bien */
+  white-space: nowrap; /* Evita que el texto se ajuste a la siguiente línea */
+  overflow: hidden; /* Oculta el texto que desborde */
+  text-overflow: ellipsis; /* Añade elipsis al final del texto que no entra */
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+.card img {
+  width: 200%; /* Las imágenes ocuparán todo el ancho de la tarjeta */
+  height: auto; /* La altura será automática para mantener la proporción */
+  object-fit: cover; /* Ajusta la imagen dentro del espacio disponible sin deformar */
+}
+
+.card:hover {
+  max-height: none; /* Elimina cualquier altura máxima en hover */
+  overflow-y: visible; /* Muestra todo el texto en hover */
+}
+
+}
+
+
